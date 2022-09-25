@@ -57,9 +57,10 @@ let sketch = new p5((p) => {
   p.setup = () => {
     canvas = p.createCanvas(bodyRectangle.width, bodyRectangle.height)
     console.log(canvas)
+    p.pixelDensity(1)
     p.frameRate(fps)
     capture = p.createCapture(p.VIDEO)
-    capture.size(bodyRectangle.width, bodyRectangle.height)
+    capture.size(100, 100)
     capture.hide()
     invertBtn.addEventListener('click', invertHandler)
     saveBtn.addEventListener('click', saveHandler)
