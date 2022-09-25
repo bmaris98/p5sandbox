@@ -1,0 +1,19 @@
+{
+  "name": "p5sandbox",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "canvas-record": "^3.1.0",
+    "p5": "^1.4.2",
+    "p5js-wrapper": "^1.2.3"
+  }
+}
